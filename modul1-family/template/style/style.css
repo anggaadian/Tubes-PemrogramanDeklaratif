@@ -1,0 +1,287 @@
+/* 
+CSS Gue ni Friend 
+Copyright by pizaini
+10751000309
+Teknik Informatika
+pizaii.wordpress.com
+*/
+
+/*body */
+body{
+	background-color:gray;
+	background-position:top left;
+	background-repeat:repeat-y;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
+	font-family:Arial, serif;
+	font-size:11.5px;
+	text-align:justify; 
+}
+
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color:#006600;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFF00;
+}
+
+/*My Deisgne of Division */
+#content{
+	width:1000;
+	background-color: #eeeeee;
+}
+
+
+#top_menu{
+	text-align:right;
+	margin-right:10px;
+}
+
+#pathway{
+	text-align:left;
+	font-size:12px;
+	font-family:"Monotype Corsiva", Arial;
+}
+
+	#pathway a{
+		font-weight:normal;
+	}
+
+	#pathway a:hover{
+		text-decoration:underline;
+	}
+
+#header{
+	background:#FFFFFF URL(../images/header.jpg);
+	background-repeat:no-repeat;
+	text-align:right;
+	font-size:18px;
+	width:1000px;
+	height:215px;
+}
+
+	#header a{
+		text-decoration:none;
+		color:#000000;
+		font-weight:bolder;
+		margin-right:10px;
+	}
+	#header a:hover{
+		text-decoration:underline;
+		color:#000000;
+		font-weight:bold;
+	}
+
+#left{
+	width:200px;
+	float: left;
+}
+
+#menu{
+	background: #cccccc;
+}
+#menu ul{
+	text-align:left;
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+	font-weight:bold;
+}
+
+#menu li{
+	margin-bottom: 5px;
+	position: relative;
+}
+#menu ul ul{
+	position: absolute;
+	background:#006600; 
+	opacity:0.9; 
+	background-repeat:repeat-y;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	display: none;
+}
+
+div#menu ul li:hover ul{
+	display: block;
+}
+#menu a{
+	text-decoration:none;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-top:5px;
+	display:block;
+	border-left: 1px outset;
+}
+
+#menu a:hover{
+	background-repeat:no-repeat;
+	border-left:hidden;
+	border-left:none;
+	border-right:1px outset;
+	text-decoration: underline;
+}
+
+
+#about{
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#about2{
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#about p{
+	margin:5px 5px 5px 5px;
+}
+
+#about a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#center{
+	float: right;
+	width:795px;
+	padding-left:5px;
+    text-align: justify;
+    background-color: #ffffff;
+}
+#ajaxcontent{
+	float: right;
+	width:795px;
+	padding-left:5px;
+    text-align: justify;
+    background-color: #ffffff;
+}
+
+ dl{
+    background-color: #cccccc;
+    padding : 0px 5px 5px 5px;
+}
+
+ dl dt{;
+    padding-top: 10px;
+}
+
+
+#paragraf p{
+	text-align:justify;
+}
+
+#paragraf h3{
+	color:#006600;
+	margin-left:20px;
+	text-align:left;
+}
+
+#paragraf table{
+	font-family:geogia;
+	font-size:12px;
+	text-align:left;
+}
+
+#paragraf table tr td{
+	vertical-align:top;
+}
+#footer{
+	clear: both;
+	background:#FFFFFF url(../images/footer.gif);
+	background-repeat:repeat-x;
+	font-size: 11px;
+	color:#0000FF;
+	padding: 10px 0px 5px 10px;
+}
+
+/* Classes */
+.marquee{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.modul_name{
+	background-image:url(../images/title.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:198px;
+	height:30px;
+	font-family:Geneva, Arial;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:5px;
+}
+
+/*Limk */
+.activ_link{
+	text-align:center;
+}
+
+/* images */
+#images{
+	width:100%;	
+}
+
+#images ul{
+	margin: 0px;
+	padding: 0px;
+}
+#images li{
+	margin-top: 5px;
+	list-style-type:none;
+	text-align:center;
+	margin-left:0px;
+}
+
+#images a{
+	text-decoration:none;
+	color:#FFFFFF;
+	text-align:center;
+}
+/* heverbox */
+.hoverbox a .preview {
+	display: none; 
+	width: 250px;
+	height: 300px;
+}
+
+.hoverbox a:hover .preview {
+	display: block;
+	position: absolute;
+	top:200px;
+	left:500px;
+}
+
+.hoverbox img {
+	background: #ffffff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 130px;
+	height: 150px;
+}
+.button{
+    font-size: 12px;
+    background-color: olive;
+    -moz-border-radius: 7px;
+    width: 70px;
+}

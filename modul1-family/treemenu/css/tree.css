@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+		ul.tv, .tv ul { 
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}	
+
+		.tv li { 
+			position: relative;
+			margin: 0;
+			padding: 4px 0 3px 20px;
+			z-index: 10;
+		}
+		
+		div.tvca { /* Clickable Area */
+			_background: #fff;
+			_filter: alpha(opacity=0);
+			/* 
+				border: 1px solid #fdd; 
+			*/ /* Useful for showing the hit area */
+			height: 15px;
+			width: 15px;
+			position: absolute;
+			top: 1px;
+			left: -1px;
+			_left: -21px; /* IE... damnit! */
+			cursor: pointer;
+			z-index: 50;
+		}
+
+  	.tv li, .tv .tvi /* Tree View Item */ { 
+		background: url(../img/tvi.gif) 0 0 no-repeat; 
+	}
+  		
+  	.tv .tvic /* Tree View Item, Collapsable */ { 
+		background-image: url(../img/tvic.gif); 
+	}
+  	.tv .tvie /* Tree View Item, Expandable */ { 
+		background-image: url(../img/tvie.gif); 
+	}
+
+  	.tv .tvil /* Tree View Last Item */ { 
+		background-image: url(../img/tvil.gif); 
+	}
+  	.tv .tvilc /* Tree View Last Item, Collapsable */ { 
+		background-image: url(../img/tvilc.gif); 
+	}
+  	.tv .tvile /* Tree View Last Item, Expandable */ { 
+		background-image: url(../img/tvile.gif); 
+	}
+
+  	.tvload /* Loading Icon */ { 
+		background-image: url(../img/tviload.gif); 
+	}
+		
+		.tvclosed ul,
+		.tvclosed li.tvclosed ul	{
+			display: none;
+		}
+		.tvclosed ul ul {
+			display: block;
+		}
