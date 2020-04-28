@@ -1,0 +1,4 @@
+Untuk hari ini, Project Implementasi Prolog ke dalam Bahasa Pemrograman PHP
+sudah selesai 4 modul. 4 moduk tersebut sudah digabungkan ke dalam tampilan
+agar lebih menarik.
+Untuk Implementasi Prolog sendiri masih dalam proses pengerjaan
