@@ -1,0 +1,5 @@
+Rincian Tubes
+Melalui rapat online hari ini kami memutuskan untuk mengerjakan 2 project Tubes, 
+Project kami berupa implementasi prolog ke dalam bahasa pemrograman lain yaitu kami memilih PHP.
+selanjutnya, kami juga mengerjakan project pada prolog mengenai Sistem Pakar (Pendukung Keputusan) 
+pada Hama Padi.
