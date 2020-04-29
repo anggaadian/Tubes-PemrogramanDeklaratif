@@ -1,0 +1,3 @@
+Hari ini kami menyelesaikan Project Sistem Pakar Diagnosa Hama Padi pada SWI Prolog 
+dan kami juga menyelesaikan dan melakukan take video. Untuk saat ini video masih dalam proses editing
+dan untuk progress project implementasi pada PHP sudah terkumpul 5 Modul
