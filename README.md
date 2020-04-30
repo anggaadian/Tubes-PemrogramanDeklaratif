@@ -8,5 +8,7 @@ Kelompok ini beranggotakan (Offering B) :
 -Moza Nailur R [190535746103] 
 -Sayed Rahman Hamid [180535600764]
 
-Link Video Project :
-(will be release so on)
+Link Video Project 1. Sistem Pakar Diagnosa Pada Hama Padi (https://bit.ly/VideoSistemPakarHamaPadi)
+
+Link Video Project 2 Implementasi Prolog ke Bahasa Pemrograman PHP ( will be release so on)
+
