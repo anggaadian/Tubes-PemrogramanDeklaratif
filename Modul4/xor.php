@@ -1,7 +1,6 @@
 <?php
 @$g = $_POST['g'];
 @$h = $_POST['h'];
-@$hasil = pow($g, $h);
 ?>
 
 <!DOCTYPE html>
@@ -25,18 +24,21 @@
                 <tr>
                     <td>
                         <?php
-                        if($g == "" || $h == ""){
-                            echo "";
-                        }
-                        elseif ($g == 0 || $h==1)
-                        {
-                          echo "1 (TRUE)";
-                        } elseif($g == 1 || $h == 0)
-                        {
-                            echo "1 (TRUE)";
-                        }else{
-                            echo "0 (FALSE)";
-                        }
+                        if($g == "" xor $h == ""){
+                    echo "";
+                    }
+                    elseif($g == 0 xor $h == 1)
+                    {
+                      echo "1 (FALSE)";
+                    } elseif($g == 1 xor $h == 0)
+                    {
+                        echo "1 (TRUE)";
+                    } elseif($g == 1 xor $h == 1)
+                    {
+                        echo "0 (FALSE)";
+                    }else{
+                        echo "0 (FALSE)";
+                    }
                         ?>
                     </td>
                 </tr>
