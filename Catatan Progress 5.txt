@@ -1,0 +1,10 @@
+Untuk progres ke-5 ini, kami telah menyelesaikan tugas besar kami yang berupa : 
+1. implementasi pemrograman prolog pada Sistem pakar diagnosa hama pada tanaman padi 
+   menggunakan swi prolog.
+2. implementasi modul 1 - 6 pemrograman deklaratif pada bahasa pemrograman php, untuk 
+   mengetahui perbedaan penulisan coding pada bahasa php dengan penulisan koding pada
+   prolog.
+Semua project dan file tugas telah kami upload pada github ini, beserta link video 
+penjelasan tugas besar yang kami bedakan kedalam dua link video. Yang pertama link 
+tugas besar mengenai sistem pakar diaknosa hama pada tanaman padi, yang kedua link
+video perbedaan penulisan koding pada php dan prolog.
