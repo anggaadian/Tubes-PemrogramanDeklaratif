@@ -21,6 +21,6 @@ Keterangan Folder Project :
 9.	Pada Folder Project Tubes Implementasi Prolog Ke dalam Bahasa Pemrograman PHP berisi gabungan dari  poin ke 2 sampai dengan poin ke 
 
 Link Video Project 1. Sistem Pakar Diagnosa Pada Hama Padi (https://bit.ly/VideoSistemPakarHamaPadi)
-Link Video Project 2 Implementasi Prolog ke Bahasa Pemrograman PHP ( will be release so on)
+Link Video Project 2 Implementasi Prolog ke Bahasa Pemrograman PHP ( https://bit.ly/PrologToPHP )
 
 
